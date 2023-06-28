@@ -36,8 +36,11 @@ This package generates a unique ID/String for different browsers. Like chrome, F
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@clickwithclark/broprint.js@latest/lib/UMD/index.js"></script>
     <script>
-      alert(`Here is your unique fingerprint: 
-      fingerprint.getCurrentBrowserFingerPrint().then(identity=>alert(identity))`);
+      fingerprint
+        .getCurrentBrowserFingerPrint()
+        .then((identity) =>
+          alert(`Here is your unique fingerprint: ${identity}`)
+        );
     </script>
     <title>FingerPrint</title>
   </head>
