@@ -1,5 +1,5 @@
 {
-  "name": "@rajesh896/broprint.js",
+  "name": "@clickwithclark/broprint.js",
   "version": "2.1.1",
   "description": "The world's easiest, smallest and powerful visitor identifier for browsers.",
   "main": "./lib/index.js",
@@ -11,14 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rajesh-Royal/Broprint.js.git"
+    "url": "git+https://github.com/clickwithclark/Broprint.js.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
   },
-  "bin": {
-    "getDeviceId()": "./lib/index.js"
-  },
+  
   "keywords": [
     "browserfingerprint",
     "fingerprinting",
@@ -36,11 +34,14 @@
     "typescript"
   ],
   "author": "Rajesh-Royal",
+  "contributors": ["clickwithclark"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rajesh-Royal/Broprint.js/issues"
+    "url": "https://github.com/clickwithclark/Broprint.js/issues"
   },
-  "homepage": "https://github.com/Rajesh-Royal/Broprint.js#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "homepage": "https://github.com/clickwithclark/Broprint.js#readme",
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
